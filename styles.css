@@ -1,0 +1,81 @@
+/* Structure */
+hr{
+  height: 10px;
+	border: 0;
+  padding: 0;
+  margin: 0;
+	box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.hover-border{
+  cursor: context-menu;
+}
+.hover-border:hover{
+  border: solid 1px #000;
+}
+.standard-padding{
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.extra-top-bottom-padding{
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+}
+.nav-padding{
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.zero-padding{
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Text Formatting */
+@font-face{
+	font-family: OG;
+	src: url(./res/fonts/OG.otf);
+}
+a, a:hover, a:active, a:focus, a:visited  {
+  color:#000;
+}
+.navbar-text{
+	font-family: OG;
+	font-size: 28px;
+	color: #ffffff;
+}
+.heading-text{
+  font-family: verdana;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.title-text{
+  font-family: arial;
+  font-size: 36px;
+  font-weight: bolder;
+}
+.content-text{
+  font-family: arial;
+  font-size: 16px;
+}
+.entry-number-text{
+  font-family: arial;
+  font-size: 24px;
+  font-weight: bold;
+}
+.entry-text{
+  font-family: arial;
+  font-size: 18px;
+}
+
+/* Image Formatting */
+.header-img{
+  max-height: 50px;
+  border-radius: 30px
+}
